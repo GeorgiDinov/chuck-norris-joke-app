@@ -1,0 +1,6 @@
+<thlogic>
+    <attr sel="#jokeId"
+          th:text="${__${T(com.georgidinov.chucknorrisjokeapp.util.AttributeNames).QUOTE}__}"/>
+    <attr sel="#newJoke"
+          th:href="@{__${T(com.georgidinov.chucknorrisjokeapp.util.Mappings).HOME}__}"/>
+</thlogic>
