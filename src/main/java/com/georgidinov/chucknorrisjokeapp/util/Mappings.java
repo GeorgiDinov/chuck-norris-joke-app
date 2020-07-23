@@ -1,7 +1,7 @@
 package com.georgidinov.chucknorrisjokeapp.util;
 
 //holds only constants
-public class Mappings {
+public final class Mappings {
 
     //== constants ==
     public static final String HOME = "/";
